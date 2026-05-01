@@ -1,6 +1,6 @@
 $color-blank: #fff;
+$color-beige: #fbf3ef;
 $color-light: #e3ded9;
-$color-stone: #d8c8b8;
 $color-taupe: #b7a699;
 $color-gold: #c6923f;
 $color-ink: #2b221c;
@@ -8,5 +8,11 @@ $color-ink: #2b221c;
 $font-family-heading: "Playfair Display", Georgia, serif;
 $font-family-base: "Inter", Arial, sans-serif;
 
+$max-width: 1200px;
+
+$breakpoint-mobile: 599px;
+$breakpoint-tablet: 900px;
+
 $container-home-small: 44.99rem;  
 $container-home-large: 45rem; 
+
