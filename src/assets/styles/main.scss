@@ -6,14 +6,29 @@
 /**
  * Import dependencies
  */
-@use "dependencies";
+@use "vendors/dependencies";
 
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
 
+@use "settings/variables";
+@use "tools/functions";
+@use "tools/mixins";
+
+@use "generic/reset";
+
+@use "vendors/bootstrap";
+
+@use "components/site-header";
+@use "components/site-footer";
+@use "components/site-nav";
+@use "components/button";
+
 @use "layouts/home";
+@use "layouts/article";
+@use "layouts/speakers";
 
 /**
  * Do NOT include anything else in this file!

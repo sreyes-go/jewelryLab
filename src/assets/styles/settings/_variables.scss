@@ -1,12 +1,12 @@
-@use "sass:color";
+$color-blank: #fff;
+$color-light: #e3ded9;
+$color-stone: #d8c8b8;
+$color-taupe: #b7a699;
+$color-gold: #c6923f;
+$color-ink: #2b221c;
 
-$font-family-sans-serif:
-  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-  Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-heading: "Playfair Display", Georgia, serif;
+$font-family-base: "Inter", Arial, sans-serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
-
-$mqMinWidth: 420px;
+$container-home-small: 44.99rem;  
+$container-home-large: 45rem; 
