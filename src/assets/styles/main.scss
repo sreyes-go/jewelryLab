@@ -15,11 +15,8 @@
 
 @use "settings/variables";
 @use "tools/functions";
-@use "tools/mixins";
 
 @use "generic/reset";
-
-@use "vendors/bootstrap";
 
 @use "components/site-header";
 @use "components/site-footer";
@@ -28,7 +25,7 @@
 @use "layouts/home";
 @use "layouts/article";
 @use "layouts/speakers";
-
+@use "layouts/joinus";
 /**
  * Do NOT include anything else in this file!
  */
